@@ -61,3 +61,7 @@ article {
 .btn {
   background: #e4731e;
   border-color: #e4731e; }
+
+@media (max-width: 350px) {
+  .donate {
+    display: none; } }

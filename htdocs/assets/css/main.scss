@@ -123,3 +123,10 @@ article {
 
 
 
+
+$breakpoint-small-phone: 350px;
+@media (max-width: $breakpoint-small-phone) {
+  .donate {
+  	display: none;
+  }
+}
