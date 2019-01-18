@@ -1,12 +1,53 @@
-.intro .jumbotron {
-  background: url(../imgs/pothole-1.jpg);
-  background-size: cover; }
-  .intro .jumbotron .container .lead {
-    background: rgba(255, 255, 255, 0.8); }
+header .navbar {
+  background: #314f71; }
+
+.mission {
+  margin-bottom: 0; }
+  .mission .jumbotron {
+    background: url(../imgs/pothole-4.jpg);
+    background-size: cover;
+    background-position: bottom;
+    padding: 8%; }
+    .mission .jumbotron .container .lead {
+      background: rgba(255, 255, 255, 0.8);
+      font-size: 1rem;
+      padding: 3%;
+      text-align: justify; }
+      .mission .jumbotron .container .lead .bold {
+        font-weight: 500; }
+
+.event .card-header {
+  background: #314f71; }
+  .event .card-header .date {
+    text-align: center;
+    color: white; }
+  .event .card-header .day {
+    font-size: 5vh; }
+  .event .card-header .time {
+    font-size: 4vh; }
+
+.event .card-title {
+  text-align: center;
+  font-size: 3.5vh; }
+
+.event .card-text {
+  text-align: justify; }
+
+.featured .card {
+  margin: 0 0 2vh 0; }
+
+footer {
+  background: #314f71;
+  color: #fff; }
 
 #menu {
-  font-size: 40px; }
+  font-size: 40px;
+  color: #fff; }
 
 article {
   margin: 0 0 3vh 0;
   border: 1px solid grey; }
+
+.btn {
+  background: #e4731e;
+  border-color: #e4731e; }
