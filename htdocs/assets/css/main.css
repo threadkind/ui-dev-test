@@ -1,4 +1,12 @@
-header .navbar {
+article {
+  margin: 0 0 3vh 0;
+  border: 1px solid grey; }
+
+header, footer {
+  background: #314f71;
+  color: #fff; }
+
+.navbar {
   background: #314f71; }
 
 .mission {
@@ -36,27 +44,22 @@ header .navbar {
 .featured .card {
   margin: 0 0 2vh 0; }
 
-footer {
-  background: #314f71;
+.contact-info a {
+  text-decoration: none;
   color: #fff; }
-  footer .contact-info a {
-    text-decoration: none;
-    color: #fff; }
-  footer .contact-info a:hover {
-    color: #e4731e; }
-  footer .social-media {
-    padding: 4vh 0 4vh 0;
-    width: 70%; }
-    footer .social-media .sm-logo {
-      width: 100px; }
+
+.contact-info a:hover {
+  color: #e4731e; }
+
+.social-media {
+  padding: 4vh 0 4vh 0;
+  width: 70%; }
+  .social-media .sm-logo {
+    width: 100px; }
 
 #menu {
   font-size: 40px;
   color: #fff; }
-
-article {
-  margin: 0 0 3vh 0;
-  border: 1px solid grey; }
 
 .btn {
   background: #e4731e;
