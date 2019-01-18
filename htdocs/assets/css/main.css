@@ -1,0 +1,12 @@
+.intro .jumbotron {
+  background: url(../imgs/pothole-1.jpg);
+  background-size: cover; }
+  .intro .jumbotron .container .lead {
+    background: rgba(255, 255, 255, 0.8); }
+
+#menu {
+  font-size: 40px; }
+
+article {
+  margin: 0 0 3vh 0;
+  border: 1px solid grey; }
