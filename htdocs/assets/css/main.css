@@ -39,6 +39,16 @@ header .navbar {
 footer {
   background: #314f71;
   color: #fff; }
+  footer .contact-info a {
+    text-decoration: none;
+    color: #fff; }
+  footer .contact-info a:hover {
+    color: #e4731e; }
+  footer .social-media {
+    padding: 4vh 0 4vh 0;
+    width: 70%; }
+    footer .social-media .sm-logo {
+      width: 100px; }
 
 #menu {
   font-size: 40px;
