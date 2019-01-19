@@ -15,19 +15,25 @@
   <header>
 
     <nav class="navbar">
-      <a class="navbar-brand" href="#">
-        <img src="assets/imgs/save-the-potholes-02.png" height="50" class="d-inline-block align-top" alt="Save the Potholes Logo">
-      </a>
-      <button type="button" class="donate btn">Donate</button>
-      <div id="nav-menu">☰<div>
+        <a class="navbar-brand" href="#">
+          <img src="assets/imgs/save-the-potholes-02.png" height="50" class="d-inline-block align-top" alt="Save the Potholes Logo">
+        </a>
+        <button type="button" class="donate btn">Donate</button>
+        <div id="menu-button">☰<div>
     </nav>
-
   </header>
+
+  <ul class="navbar-menu">
+    <a class="menu-option" href="#mission"><li>Our Mission Statement</li></a>
+    <a class="menu-option" href="#event"><li>Upcoming Events</li></a>
+    <a class="menu-option" href="#featured"><li>Resources</li></a>
+    <a class="menu-option" href="#footer"><li>Contact</li></a>
+  </ul>
 
 
   <main id="main">
 
-    <article class="mission">
+    <article id="mission" class="mission">
 
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
@@ -45,7 +51,7 @@
     </article>
 
 
-    <article class="event">
+    <article id="event" class="event">
 
       <div class="container">
         <div class="row">
@@ -74,7 +80,7 @@
     </article>
 
 
-	<article class="featured">
+	<article id="featured" class="featured">
 
       <div class="container">
 	    <div class="row">
@@ -188,6 +194,7 @@
 
   </footer>
 
+  <script src="assets/js/main.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="assets/js/vendor/popper.min.js"></script>
   <script src="assets/js/vendor/bootstrap.min.js"></script>

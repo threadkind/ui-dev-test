@@ -1,3 +1,7 @@
+nav {
+  background: $brand-color-1;
+}
+
 article {
   margin: 0 0 3vh 0;
 }
@@ -16,7 +20,15 @@ p, a {
   color: $text-1;
 }
 
-
+a {
+  text-decoration: none;
+}
 a:hover {
   color: $brand-color-2;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
 }
