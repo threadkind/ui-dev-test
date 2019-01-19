@@ -1,4 +1,6 @@
 .contact-card {
+	text-align: center;
+
   p {
   	color: $text-2;
   	font-size: 1.2rem;
@@ -11,5 +13,16 @@
     color: $brand-color-2;
   }
 
+}
 
+
+@media (min-width: $breakpoint-tablet) {
+
+  .contact-card {
+
+	p {
+		font-size: 1.5rem;
+	}
+
+  }
 }

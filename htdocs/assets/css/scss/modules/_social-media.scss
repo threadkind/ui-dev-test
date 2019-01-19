@@ -3,7 +3,37 @@
   width: 70%;
 
   .sm-logo {
-    width: 90%;
+    width: 15vw;
+  }
+
+}
+
+
+@media (min-width: $breakpoint-tablet) {
+
+  .social-media {
+    padding: 4vh 0 4vh 0;
+    width: 50%;
+
+    .sm-logo {
+      width: 8vw;
+    }
+
+  }
+
+}
+
+
+@media (min-width: $breakpoint-laptop) {
+
+  .social-media {
+    padding: 4vh 0 4vh 0;
+    width: 30%;
+
+    .sm-logo {
+      width: 5vw;
+    }
+
   }
 
 }

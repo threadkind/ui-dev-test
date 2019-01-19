@@ -5,3 +5,14 @@
   }
 
 }
+
+@media (min-width: $breakpoint-tablet) {
+
+  .copyright {
+    p {
+      font-size: 1.5rem;
+    }
+
+  }
+
+}
