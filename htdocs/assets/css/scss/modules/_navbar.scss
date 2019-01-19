@@ -8,6 +8,15 @@
     cursor: pointer;
 }
 
+  #menu-button {
+  	display: inline;
+  }
+
+  .donate {
+  	margin: 0 0 20px 0;
+  }
+
+
 
 }
 
@@ -35,4 +44,20 @@
   .donate {
   	display: none;
   }
+}
+
+@media (min-width: $breakpoint-tablet) {
+
+  .nav-buttons {
+
+    div#menu-button {
+  	  display: none;
+    }
+
+    .donate {
+  	  margin: 0;
+    }
+
+  }
+
 }

@@ -36,6 +36,12 @@ footer {
   color: #fff;
   cursor: pointer; }
 
+.navbar #menu-button {
+  display: inline; }
+
+.navbar .donate {
+  margin: 0 0 20px 0; }
+
 .navbar-menu {
   background: #e4731e;
   margin: 0; }
@@ -53,6 +59,12 @@ footer {
 @media (max-width: 350px) {
   .donate {
     display: none; } }
+
+@media (min-width: 768px) {
+  .nav-buttons div#menu-button {
+    display: none; }
+  .nav-buttons .donate {
+    margin: 0; } }
 
 .mission {
   margin-bottom: 0; }
@@ -120,10 +132,14 @@ footer {
   color: #e4731e; }
 
 .copyright p {
-  color: #fff; }
+  color: #fff;
+  text-align: center; }
 
 a.menu-option.isOpen {
   font-size: 1.25rem;
   -webkit-transition: font-size 0.3s;
   -o-transition: font-size 0.3s;
   transition: font-size 0.3s; }
+
+.isHidden {
+  display: none; }

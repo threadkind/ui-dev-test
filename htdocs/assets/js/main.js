@@ -9,4 +9,8 @@ document.getElementById('menu-button').addEventListener('click', function(){
 		menuOptions[i].classList.toggle('isOpen');
 	}
 
+	document.querySelector('.trigram').classList.toggle('isHidden');
+
+	document.querySelector('.x').classList.toggle('isHidden');
+
 });
