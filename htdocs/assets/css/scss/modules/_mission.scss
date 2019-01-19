@@ -1,0 +1,22 @@
+.mission {
+  margin-bottom: 0;
+
+  .jumbotron {
+    background: url(../imgs/pothole-4.jpg);
+    background-size: cover;
+    background-position: bottom;
+    padding: 8%;
+  }
+
+  .lead {
+    background: rgba(255,255,255,0.8);
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 5%;
+    text-align: justify;
+}
+  .bold {
+    font-weight: 900;
+  }
+
+}

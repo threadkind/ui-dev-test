@@ -1,13 +1,26 @@
 article {
-  margin: 0 0 3vh 0;
-  border: 1px solid grey; }
+  margin: 0 0 3vh 0; }
+
+button {
+  color: #fff; }
+
+.btn {
+  background: #e4731e;
+  border-color: #e4731e; }
+
+p, a {
+  color: #404040; }
+
+a:hover {
+  color: #e4731e; }
 
 header, footer {
   background: #314f71;
   color: #fff; }
 
-.navbar {
-  background: #314f71; }
+@media (max-width: 350px) {
+  .donate {
+    display: none; } }
 
 .mission {
   margin-bottom: 0; }
@@ -16,23 +29,30 @@ header, footer {
     background-size: cover;
     background-position: bottom;
     padding: 8%; }
-    .mission .jumbotron .container .lead {
-      background: rgba(255, 255, 255, 0.8);
-      font-size: 1rem;
-      padding: 3%;
-      text-align: justify; }
-      .mission .jumbotron .container .lead .bold {
-        font-weight: 500; }
+  .mission .lead {
+    background: rgba(255, 255, 255, 0.8);
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 5%;
+    text-align: justify; }
+  .mission .bold {
+    font-weight: 900; }
 
 .event .card-header {
   background: #314f71; }
-  .event .card-header .date {
-    text-align: center;
-    color: white; }
-  .event .card-header .day {
-    font-size: 5vh; }
-  .event .card-header .time {
-    font-size: 4vh; }
+
+.event .date {
+  text-align: center;
+  color: white; }
+
+.event .day {
+  font-size: 5vh; }
+
+.event .time {
+  font-size: 4vh; }
+
+.event .card-body {
+  background: rgba(49, 79, 113, 0.2); }
 
 .event .card-title {
   text-align: center;
@@ -44,27 +64,28 @@ header, footer {
 .featured .card {
   margin: 0 0 2vh 0; }
 
-.contact-info a {
-  text-decoration: none;
-  color: #fff; }
+.featured .card-body {
+  background: #f2f2f2; }
 
-.contact-info a:hover {
-  color: #e4731e; }
+.featured .card-title {
+  text-align: center; }
 
 .social-media {
   padding: 4vh 0 4vh 0;
   width: 70%; }
   .social-media .sm-logo {
-    width: 100px; }
+    width: 90%; }
 
-#menu {
-  font-size: 40px;
+.contact-card p {
+  color: #fff;
+  font-size: 1.2rem; }
+
+.contact-card a {
+  text-decoration: none;
   color: #fff; }
 
-.btn {
-  background: #e4731e;
-  border-color: #e4731e; }
+.contact-card a:hover {
+  color: #e4731e; }
 
-@media (max-width: 350px) {
-  .donate {
-    display: none; } }
+.copyright p {
+  color: #fff; }

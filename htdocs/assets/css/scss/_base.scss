@@ -1,8 +1,22 @@
 article {
-	margin: 0 0 3vh 0;
-	border: 1px solid grey;
+  margin: 0 0 3vh 0;
 }
+
 
 button {
   color: $text-2;
+}
+
+.btn {
+	background: $brand-color-2;
+	border-color: $brand-color-2;
+}
+
+p, a {
+  color: $text-1;
+}
+
+
+a:hover {
+  color: $brand-color-2;
 }
