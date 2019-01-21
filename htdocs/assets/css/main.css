@@ -60,14 +60,15 @@ footer {
 .navbar-menu {
   background: #e4731e;
   margin: 0; }
-  .navbar-menu a {
+  .navbar-menu .menu-option {
     color: #fff;
     text-align: center;
     font-size: 0;
     font-weight: 400;
     -webkit-transition: font-size 0.3s;
     -o-transition: font-size 0.3s;
-    transition: font-size 0.3s; }
+    transition: font-size 0.3s;
+    display: none; }
   .navbar-menu li {
     width: 100vw; }
 
@@ -174,7 +175,8 @@ footer {
   .copyright p {
     font-size: 1.5rem; } }
 
-a.menu-option.isOpen {
+.menu-option.isOpen {
+  display: block;
   font-size: 1.25rem;
   -webkit-transition: font-size 0.3s;
   -o-transition: font-size 0.3s;

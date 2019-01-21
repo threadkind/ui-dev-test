@@ -24,12 +24,13 @@
   background: $brand-color-2;
   margin: 0;
 
-  a {
+  .menu-option {
     color: $text-2;
    	text-align: center;
    	font-size: 0;
    	font-weight: 400;
     transition: font-size 0.3s;
+    display: none;
   }
 
   li {
