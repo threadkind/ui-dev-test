@@ -1,3 +1,18 @@
+.skip-link {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  background: $brand-color-1;
+  color: $text-2;
+  font-weight: bolder;
+  padding: 10px;
+  z-index: 10;
+
+  &:focus {
+    top: 0;
+	}
+}
+
 header {
   color: $text-2;
 }

@@ -5,14 +5,14 @@ article {
   margin: 0 0 3vh 0; }
 
 button {
-  color: #fff; }
+  color: #262626; }
 
 .btn {
   background: #e4731e;
   border-color: #e4731e; }
 
 p, a, h1, h2, h3 {
-  color: #343a40; }
+  color: #262626; }
 
 a {
   text-decoration: none; }
@@ -24,6 +24,18 @@ a:hover {
 ul {
   list-style: none;
   padding: 0; }
+
+.skip-link {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  background: #314f71;
+  color: #fff;
+  font-weight: bolder;
+  padding: 10px;
+  z-index: 10; }
+  .skip-link:focus {
+    top: 0; }
 
 header {
   color: #fff; }
@@ -52,10 +64,9 @@ footer {
     text-align: center;
     font-size: 0;
     font-weight: 400;
-    -webkit-transition: font-size 0.3s, padding 3s;
-    -o-transition: font-size 0.3s, padding 3s;
-    transition: font-size 0.3s, padding 3s;
-    padding: 0; }
+    -webkit-transition: font-size 0.3s;
+    -o-transition: font-size 0.3s;
+    transition: font-size 0.3s; }
   .navbar-menu li {
     width: 100vw; }
 
