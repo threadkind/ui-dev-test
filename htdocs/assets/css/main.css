@@ -5,11 +5,12 @@ article {
   margin: 0 0 3vh 0; }
 
 button {
-  color: #262626; }
+  color: #fff; }
 
 .btn {
   background: #e4731e;
-  border-color: #e4731e; }
+  border-color: #e4731e;
+  font-weight: 500; }
 
 p, a, h1, h2, h3 {
   color: #262626; }
@@ -133,7 +134,8 @@ footer {
   padding: 4vh 0 4vh 0;
   width: 70%; }
   .social-media .sm-logo {
-    width: 15vw; }
+    width: 15vw;
+    max-width: 75px; }
 
 @media (min-width: 768px) {
   .social-media {

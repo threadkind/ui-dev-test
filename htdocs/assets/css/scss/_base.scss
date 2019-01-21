@@ -7,12 +7,13 @@ article {
 }
 
 button {
-  color: $text-1;
+  color: $text-2;
 }
 
 .btn {
-	background: $brand-color-2;
-	border-color: $brand-color-2;
+  background: $brand-color-2;
+  border-color: $brand-color-2;
+  font-weight: 500;
 }
 
 p, a, h1, h2, h3 {
