@@ -9,7 +9,21 @@ function menuItemsToggle(){
 
     menuOptions[i].classList.toggle('isOpen');
 	}
-}
+};
+
+function closeMenu(){
+
+  	menuItemsToggle();
+  	setTimeout(function(){
+      navbarMenu.classList.toggle('isHidden');
+  	}, 350);
+
+	document.querySelector('.trigram').classList.toggle('isHidden');
+
+	document.querySelector('.x').classList.toggle('isHidden');
+
+
+};
 
 function toggleMenu() {
 
@@ -21,11 +35,7 @@ function toggleMenu() {
 
   }
   else {
-  	menuItemsToggle();
-
-  	setTimeout(function(){
-      navbarMenu.classList.toggle('isHidden');
-  	}, 350);
+    closeMenu();
 
   }
 
@@ -44,3 +54,11 @@ document.querySelector('.trigram').addEventListener('keypress', function(e){
 	}
 
 });
+
+navbarMenu.addEventListener('click', function(e){
+
+  if(e.path[0].tagName === "LI"){
+  	closeMenu();
+  }
+});
+
