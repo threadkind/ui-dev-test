@@ -4,18 +4,21 @@
 
   #menu-button {
     font-size: 40px;
-    color: $text-2;
-    cursor: pointer;
-}
-
-  #menu-button {
     width: 60px;
+    height: 60px;
+    vertical-align: middle;
     text-align: center;
-  	display: inline;
+  	display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    .trigram, .x {
+      margin: -10px 0 0 0;
+    }
   }
 
   .donate {
-  	margin: 0 20px 20px 0;
+  	margin: 15px 20px 20px 0;
   }
 
 }

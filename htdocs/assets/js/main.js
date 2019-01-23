@@ -16,7 +16,7 @@ function openMenu() {
 
 document.getElementById('menu-button').addEventListener('click', openMenu);
 
-document.getElementById('menu-button').addEventListener('keypress', function(e){
+document.querySelector('.trigram').addEventListener('keypress', function(e){
 
 	if(e.keyCode === 13){
 		openMenu();
