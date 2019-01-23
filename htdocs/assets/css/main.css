@@ -50,15 +50,7 @@ footer {
   height: 60px;
   vertical-align: middle;
   text-align: center;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center; }
+  display: inline; }
   .navbar #menu-button .trigram, .navbar #menu-button .x {
     margin: -10px 0 0 0; }
 
@@ -75,8 +67,7 @@ footer {
     font-weight: 400;
     -webkit-transition: font-size 0.3s;
     -o-transition: font-size 0.3s;
-    transition: font-size 0.3s;
-    display: none; }
+    transition: font-size 0.3s; }
   .navbar-menu li {
     width: 100vw; }
 
@@ -85,9 +76,9 @@ footer {
     display: none; } }
 
 @media (min-width: 768px) {
-  .nav-buttons div#menu-button {
+  .navbar #menu-button {
     display: none; }
-  .nav-buttons .donate {
+  .navbar .donate {
     margin: 0 20px 0 0; } }
 
 .mission {
@@ -184,7 +175,6 @@ footer {
     font-size: 1.5rem; } }
 
 .menu-option.isOpen {
-  display: block;
   font-size: 1.4rem;
   -webkit-transition: font-size 0.3s;
   -o-transition: font-size 0.3s;

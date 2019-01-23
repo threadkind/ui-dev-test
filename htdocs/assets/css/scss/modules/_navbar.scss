@@ -8,9 +8,7 @@
     height: 60px;
     vertical-align: middle;
     text-align: center;
-  	display: inline-flex;
-    align-items: center;
-    justify-content: center;
+  	display: inline;
 
     .trigram, .x {
       margin: -10px 0 0 0;
@@ -33,7 +31,6 @@
    	font-size: 0;
    	font-weight: 400;
     transition: font-size 0.3s;
-    display: none;
   }
 
   li {
@@ -52,9 +49,9 @@
 
 @media (min-width: $breakpoint-tablet) {
 
-  .nav-buttons {
+  .navbar {
 
-    div#menu-button {
+    #menu-button {
   	  display: none;
     }
 
